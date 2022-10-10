@@ -32,7 +32,7 @@
 			$_SESSION["Status"] = $objResult["Status"];
 
 			session_write_close();
-			zxc
+		
 			if($objResult["Status"] == "ADMIN")
 			{
 				header("location:admin/admin_page.php");
@@ -48,3 +48,4 @@
 ?>
 </body>
 </html>
+aaaaaa
